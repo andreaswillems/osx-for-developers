@@ -30,26 +30,17 @@ After having maintained [this gist](https://gist.github.com/danguita/6242852/rev
 - [Exuberant Ctags](#exuberant-ctags)
 - [Ranger](#ranger)
 - [Gist](#gist-client)
-- [Tmux](#tmux)
-- [Rainbarf](#rainbarf)
 - [Docker](#docker)
 - [Postgresql](#postgresql)
 - [MySQL](#mysql)
-- [Elasticsearch](#elasticsearch)
 - [Redis](#redis)
 - [Capybara](#capybara-dependencies)
 - [Imagemagick](#imagemagick)
 - [Ghostscript](#ghostscript)
-- [Weechat](#weechat)
-- [Twitter](#twitter-client)
-- [Livestreamer](#livestreamer)
 - [Ruby](#ruby)
 - [Nodejs](#nodejs)
-- [Bower](#bower)
 - [VirtualBox](#virtualbox)
 - [Vagrant](#vagrant)
-- [Packer](#packer)
-- [X11](#x11)
 - [Java runtime](#java-runtime)
 - [Microsoft IE OVA images](#microsoft-ie-ova-images)
 
@@ -222,11 +213,6 @@ mkdir ~/Applications
 brew linkapps
 ```
 
-### Htop
-
-```
-brew install htop
-```
 
 ### ngrok
 
@@ -234,18 +220,6 @@ brew install htop
 brew install ngrok2
 brew link --overwrite ngrok2 # In case ngrok 1.x is already installed
 ngrok http 3000 # To start tunneling the HTTP port 3000
-```
-
-### Exuberant Ctags
-
-```
-brew install ctags
-```
-
-### Ranger
-
-```
-brew install ranger
 ```
 
 ### Gist client
