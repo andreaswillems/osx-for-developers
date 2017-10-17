@@ -311,19 +311,6 @@ ARCHFLAGS="-arch x86_64" gem install pg
 brew install mysql
 ```
 
-### Elasticsearch
-
-```
-brew install elasticsearch
-```
-
-#### Elasticsearch-head plugin
-
-```
-/usr/local/Cellar/elasticsearch/0.90.3/bin/plugin -install mobz/elasticsearch-head
-open http://localhost:9200/_plugin/head/
-```
-
 ### Redis
 
 ```
@@ -356,53 +343,19 @@ ln -s libMagick++-6.Q16.1.dylib libMagick++.dylib
 brew install gs
 ```
 
-### Weechat
-
-```
-brew install weechat --with-perl --with-ruby
-```
-
-#### Weechat Scripts
-
-```
-/script install buffers.pl beep.pl
-```
-
-#### TOR
+#### TOR - OPTIONAL
 
 ```
 brew install tor
 ```
 
-#### Set up IRC SASL:
-
-- http://www.weechat.org/files/doc/stable/weechat_user.en.html#irc_sasl_authentication
-- http://freenode.net/irc_servers.shtml#tor
-
-### Twitter client
-
-```
-easy_install -U rainbowstream
-```
-
-#### Rainbowstream: Run with `image-on-term`
-
-```
-rainbowstream -iot
-```
-
-### Livestreamer
-
-```
-easy_install -U livestreamer
-```
-
 ### Ruby
 
 ```
-brew install chruby
-brew install ruby-install
-brew install chgems
+brew install rbenv
+rbenv init
+rbenv install -l
+rbenv install 2.4.2
 ```
 
 #### Install rubies
@@ -432,12 +385,6 @@ curl https://npmjs.org/install.sh | sh
 curl https://raw.github.com/creationix/nvm/master/install.sh | sh
 ```
 
-### bower
-
-```
-npm install bower
-```
-
 ### VirtualBox
 
 ```
@@ -454,19 +401,6 @@ brew cask install vagrant
 
 ```
 vagrant plugin install vagrant-vbguest
-```
-
-### Packer
-
-```
-brew tap homebrew/binary
-brew install packer
-```
-
-### X11
-
-```
-brew cask install xquartz
 ```
 
 ### Java Runtime
