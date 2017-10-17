@@ -1,7 +1,5 @@
 # Set up your shiny OS X for software development
 
-After having maintained [this gist](https://gist.github.com/danguita/6242852/revisions) with a bunch of [stargazers](https://gist.github.com/danguita/6242852/stargazers), I'd like to let people contribute here. Feel free to pull request!
-
 ## Table of Contents
 
 - [Command Line Tools](#command-line-tools)
